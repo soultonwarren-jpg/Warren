@@ -20,12 +20,26 @@
         .menu{
             border: 2px solid blue;
             height: 30px;
-            width: 40%;
+            width: 40%; 
         }
         .rectangle{
             height: 300px;
             border: 2px solid blue;
             margin: 30px auto;
+            background: linear-gradient(30deg, green , red);
+        }
+        .grandrect{
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+           gap: 30px ;
+        }
+        .petitrect{
+            border: 2px solid red;
+            width: 30%;
+            height: 200px;
+            border-radius: 15px;
         }
     </style>
 </head>
@@ -36,5 +50,13 @@
     </div>
 
     <div class="rectangle"></div>
+    <div class="grandrect">
+        <div class="petitrect"></div>
+        <div class="petitrect"></div>
+        <div class="petitrect"></div>
+        <div class="petitrect"></div>
+        <div class="petitrect"></div>
+        <div class="petitrect"></div>
+    </div>
 </body>
 </html>
